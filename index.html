@@ -1,41 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>UnityMaster.ai – AI Client Assistant</title>
+  <title>UnityMaster Login</title>
+
+  <!-- CSS CONNECT -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-  <h1>UnityMaster.ai</h1>
-  <p>AI Tool to Talk with International Clients</p>
-  <a href="dashboard.html" class="btn">Get Started Free</a>
-</header>
+  <h2>Login</h2>
 
-<section class="features">
-  <h2>Features</h2>
-  <ul>
-    <li>🤖 AI Auto Reply System</li>
-    <li>🌍 International Clients Support</li>
-    <li>💬 WhatsApp / Telegram Ready</li>
-    <li>🔒 Admin Control Panel</li>
-  </ul>
-</section>
+  <input id="email" type="email" placeholder="Email"><br><br>
+  <input id="password" type="password" placeholder="Password"><br><br>
 
-<section class="pricing">
-  <h2>Pricing</h2>
-  <div class="card">
-    <h3>Free</h3>
-    <p>2 Messages / Day</p>
-  </div>
-  <div class="card">
-    <h3>Pro</h3>
-    <p>Unlimited Access</p>
-    <button onclick="goToPayment()">Upgrade</button>
-  </div>
-</section>
+  <button onclick="login()">Login</button>
 
-<script src="js/payment.js"></script>
+  <!-- JS CONNECT -->
+  <script src="js/app.js"></script>
 </body>
 </html>
